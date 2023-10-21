@@ -2,6 +2,7 @@
 
 {% import "bootstrap/utils.html" as utils %}
 {% extends "base.html" %}
+{% set show_footer = False %}
 {% block title %}Departments{% endblock %}
 {% block body %}
 <div class="content-section">
@@ -18,11 +19,11 @@
             <table class="table table-striped table-bordered">
               <thead>
                 <tr>
-                  <th width="35%"> Name </th>
-                  <th width="55%"> Description </th>
-                  <th width="25%"> Employee Count </th>
-                  <th width="15%"> Edit </th>
-                  <th width="25%"> Delete </th>
+                  <th width="25%"> Name </th>
+                  <th width="50%"> Description </th>
+                  <th width="15%"> Employee Count </th>
+                  <th width="5%"> Edit </th>
+                  <th width="5%"> Delete </th>
                 </tr>
               </thead>
               <tbody>

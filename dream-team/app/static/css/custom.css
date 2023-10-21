@@ -1,0 +1,15 @@
+/* custom.css */
+
+/* Adjust the width of tables */
+table .table.table-striped.table-bordered {
+    width: 90% !important; /* Set the desired width, e.g., 85% of the parent container */
+    max-width: 100% !important; /* Ensure it doesn't exceed the container width */
+    overflow-x: auto !important; /* Add horizontal scroll if necessary */
+}
+
+/* Optional: Adjust table width for smaller screens */
+@media (max-width: 767px) {
+    table .table.table-striped.table-bordered {
+        width: 100%; /* Set to 100% for smaller screens */
+    }
+}
